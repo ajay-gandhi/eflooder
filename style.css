@@ -1,0 +1,142 @@
+body {
+	background-color: #222222;
+	font-family: Georgia;
+	font-size: 11pt;
+	color: #111111;
+}
+
+div.header {
+	padding: 20px;
+	color: #FFFFFF;
+	font-family: Verdana;
+}
+
+div.wrapper {
+	background-color: #FFFFFF;
+	border-radius: 11px;
+	padding: 10px;
+}
+div.content {
+	padding: 20px;
+}
+
+div.footer {
+	padding: 20px;
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 11pt;
+}
+
+div#rf-wrapper {
+	text-align: center;
+}
+
+div#results {
+	font-size: 14pt;
+}
+
+form.login-form {
+	width: 265px;
+	padding: 30px;
+	background-color: #FCFCFC;
+	border: 1px solid #111111;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+form#registration-form {
+	width: 400px;
+	padding: 30px;
+	background-color: #FCFCFC;
+	border: 1px solid #111111;
+	border-radius: 5px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+table, td, tr {
+	border: none;
+}
+
+td {
+	padding: 5px;
+}
+
+td.l {
+	width: 130px;
+	text-align: right;
+}
+
+textarea {
+	resize: none;
+	outline: none;
+}
+
+span#form-hint {
+	border: 2px solid red;
+	padding: 2px;
+	font-size: 9pt;
+	display: none;
+}
+span#results-wait {
+	font-size: 10pt;
+	font-style: italic;
+}
+
+span.required {
+	color: red;
+	font-weight: bold;
+}
+span.inote {
+	font-size: 11pt;
+	font-style: italic;
+}
+
+a {
+	color: #FFFFFF;
+}
+a:visited {
+	color: inherit;
+}
+a:hover {
+	color: inherit;
+}
+
+a.black {
+	color: black;
+}
+
+input {
+	font-family: Georgia;
+	font-size: 11pt;
+	color: #000000;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	outline: none;
+	padding: 5px;
+}
+.submit-button {
+	font-family: Verdana;
+	font-size: 11pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	/* Cross-Browser Gradient Fill */
+	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#000000));
+	background: -moz-linear-gradient(top,  #666666,  #000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+	/* End */
+	border: 1px solid #000000;
+	border-radius: 3px;
+	outline: none;
+	padding: 5px;
+}
+.submit-button:hover {
+	color: #FFFFFF;
+}
+.submit-button:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#666666));
+	background: -moz-linear-gradient(top,  #000000,  #666666);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
+}
